@@ -88,6 +88,7 @@ function MainTabNavigator() {
         component={ScanQRScreen} 
         options={{
           title: '',
+          tabBarStyle: { display: 'none' },
           tabBarIcon: ({ focused }) => (
             <View style={{
                 width: 64, 
